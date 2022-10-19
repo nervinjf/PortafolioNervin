@@ -3,8 +3,8 @@ import React from 'react';
 const Habilidades = () => {
 
     return (
-        <div className='hidden'>
-            <div className='container-all-hbl-tech'>
+        <div>
+            <div className='hidden container-all-hbl-tech' >
                 <div className='container-hbl'>
                     <div className='container-hbl-items '>
                         <div className='grid-hbl '>

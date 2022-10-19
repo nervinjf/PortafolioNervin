@@ -9,7 +9,6 @@
 }
 
 .container-all-hbl-tech{
-    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -18,8 +17,6 @@
 
   [data-theme='true'] .container-all-hbl-tech {
     transition: all .5s ease-in-out;
-    /* z-index: 1; */
-    background: var(--dark);
   }
   
   .container-hbl{

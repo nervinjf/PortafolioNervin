@@ -1,0 +1,134 @@
+[data-theme='true' ] {
+  --dark: #001323;
+  --gray: #282D32;
+  --yellow: #f9b233;
+  --pastel: #fbdab8;
+  --red-ligth: #fce6e1;
+  --red: #e6332a;
+  --blue-os: #0149a78a;
+}
+
+.container-all-hbl-tech{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5.3rem;
+  }
+
+  [data-theme='true'] .container-all-hbl-tech {
+    transition: all .5s ease-in-out;
+    /* z-index: 1; */
+    background: var(--dark);
+  }
+  
+  .container-hbl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 2.6rem 0px 0 6.6rem ;
+  }
+
+  [data-theme='true'] .container-hbl{
+    transition: all .5s ease-in-out;
+    /* z-index: 1; */
+    color: white;
+  }
+  
+  .container-hbl-items{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+  }
+  
+  .grid-hbl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  
+  .box-hbl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.6rem;
+    height: 6.6rem;
+    background: var(--gray);
+    color: white;
+  }
+  
+  .container-tech{
+    margin: 5.3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem 0 3.3rem 0;  
+  }
+  
+  .grid-tech{
+    display: flex;
+    padding: 0 6rem 0 0;
+    gap: 1.6rem;
+  }
+
+  
+  [data-theme='true'] .box-blue3{
+    transition: all .5s ease-in-out;
+    /* z-index: 1; */
+    background: var(--yellow);
+
+  }
+  
+  .box-blue4{
+    background: var(--yellow);
+    width: 20rem;
+    height: 6.66rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  [data-theme='true'] .box-blue4 {
+    transition: all .5s ease-in-out;
+    /* z-index: 1; */
+    background: var(--blue-os);
+    color: white;
+  }
+  
+  .box-tech{
+    width: 6.6rem;
+    height: 6.6rem;
+    background: #f9b233;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  [data-theme='true'] .box-tech{
+    transition: all .5s ease-in-out;
+    /* z-index: 1; */
+    background: black;
+  }
+  
+  .interested{
+    padding: 0 0 0 2.3rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+
+  
+  [data-theme='true'] .interested {
+    transition: all .5s ease-in-out;
+    /* z-index: 1; */
+    color: white;
+  }
+  
+  .interested p{
+    margin: 0;
+  }

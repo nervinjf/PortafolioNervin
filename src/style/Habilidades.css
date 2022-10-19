@@ -72,6 +72,9 @@
     gap: 1.6rem;
   }
 
+  /* .box-tech img{
+    width: 85%;
+  } */
   
   [data-theme='true'] .box-blue3{
     transition: all .5s ease-in-out;
@@ -100,17 +103,31 @@
   .box-tech{
     width: 6.6rem;
     height: 6.6rem;
-    background: #f9b233;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+  }
+
+  .box-tech h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .box-tech img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   
   [data-theme='true'] .box-tech{
     transition: all .5s ease-in-out;
     /* z-index: 1; */
-    background: black;
+    color: white;
   }
   
   .interested{

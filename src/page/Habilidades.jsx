@@ -1,4 +1,12 @@
 import React from 'react';
+import html from '../img/html.png'
+import css from '../img/css.png'
+import js from '../img/js.png'
+import react from '../img/react.png'
+import redux from '../img/redux.png'
+import git from '../img/git.png'
+import boot from '../img/Bootstrap.png'
+
 
 const Habilidades = () => {
 
@@ -8,7 +16,7 @@ const Habilidades = () => {
                 <div className='container-hbl'>
                     <div className='container-hbl-items '>
                         <div className='grid-hbl '>
-                            <div className='box-hbl '>
+                            <div className='box-hbl'>
                                 <h1>1</h1>
                             </div>
                             <div className='box-hbl'>
@@ -47,25 +55,32 @@ const Habilidades = () => {
                     </div>
                     <div className='grid-tech'>
                         <div className='box-tech'>
-                            <h1>1</h1>
+                        <img src={html} alt="" width="100%"/>
+                        <h1>HTML</h1>
                         </div>
                         <div className='box-tech'>
-                            <h1>2</h1>
+                        <img src={css} alt="" width="85%"/>
+                        <h1>CSS</h1>
                         </div>
                         <div className='box-tech'>
-                            <h1>3</h1>
+                        <img src={js} alt="" width="180%"/>
+                        <h1>JavaScript</h1>
                         </div>
                         <div className='box-tech'>
-                            <h1>4</h1>
+                        <img src={react} alt="" width="100%"/>
+                        <h1>React</h1>
                         </div>
                         <div className='box-tech'>
-                            <h1>5</h1>
+                        <img src={redux} alt="" width="100%"/>
+                        <h1>Redux</h1>
                         </div>
                         <div className='box-tech'>
-                            <h1>6</h1>
+                        <img src={git} alt="" width="100%"/>
+                        <h1>GIT</h1>
                         </div>
                         <div className='box-tech'>
-                            <h1>7</h1>
+                        <img src={boot} alt="" width="150%"/>
+                        <h1>Bootstrap</h1>
                         </div>
                     </div>
                 </div>

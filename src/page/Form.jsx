@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
     return (
-        <div className='container-all-form hidden'>
+        <div className='container-all-form hidden' id="form">
             <div className='Po-contacto'>
                 <h2>Ponerse en contacto</h2>
             </div>

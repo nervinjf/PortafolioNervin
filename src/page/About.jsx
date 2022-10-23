@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
 
@@ -28,12 +29,12 @@ const About = () => {
     
 
     return (
-        <div className='container-about hidden'>
+        <div className='container-about hidden' id="about">
             <main>
                 <div className='container-about-pt1'>
                     <div className='box-blue2'>
                         <div className='about'>
-                            <h1>About <br /> me</h1> 
+                            <h1>Sobre mi</h1> 
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nostrum mollitia aut nemo? Assumenda cupiditate obcaecati, harum totam nihil ratione, natus ut vitae temporibus laudantium itaque, at ducimus maiores ab.</p>
                       </div>
                     </div>
@@ -41,17 +42,17 @@ const About = () => {
                     <div className='items-aboutme'>
                         <div className='items-aboutme-pt1'>
                             <div className='aboutme-items'>
-                                <h2>Birthay:</h2>
+                                <h2>Cumpleaños:</h2>
                                 <p>10-11-1999</p>
                             </div>
                             <div className='aboutme-items'  >
-                                <h2>age:</h2>
-                                <p>22 years old</p>
+                                <h2>Edad:</h2>
+                                <p>22 Años</p>
                             </div>
                         </div>
                         <div className='items-aboutme-pt1'>
                             <div className='aboutme-items'>
-                                <h2>Educacion:</h2>
+                                <h2>Educación:</h2>
                                 <p>Academlo</p>
                             </div>
                             <div className='aboutme-items'>
@@ -63,8 +64,8 @@ const About = () => {
                     </div>
                 </div>
                 <div className='container-btn-about'>
-                    <button>CONTACTO</button>
-                    <button><i class="fa-solid fa-file-arrow-down"></i> DESCARGAR CV</button>
+                    <a href="#form"><button>CONTACTO</button></a>
+                    <a href="https://drive.google.com/uc?id=17kmPlRtXQr9o8xATXxtqvfu5q73B1Z1B&export=download"><button><i class="fa-solid fa-file-arrow-down"></i> DESCARGAR CV</button></a>
                 </div>
             </main>
         </div>

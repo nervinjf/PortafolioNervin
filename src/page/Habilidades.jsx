@@ -12,36 +12,39 @@ const Habilidades = () => {
 
     return (
         <div>
-            <div className='hidden container-all-hbl-tech' >
+            <div className='hidden container-all-hbl-tech' id="skill">
                 <div className='container-hbl'>
                     <div className='container-hbl-items '>
                         <div className='grid-hbl '>
                             <div className='box-hbl'>
-                                <h1>1</h1>
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <h1>Creativo</h1>
                             </div>
                             <div className='box-hbl'>
-                                <h1>2</h1>
+                            <i class="fa-solid fa-code"></i>
+                                <h1>Developer</h1>
                             </div>
                             <div className='box-hbl'>
-                                <h1>3</h1>
+                            <i class="fa-solid fa-handshake-simple"></i>
+                                <h1>Resiliencia</h1>
                             </div>
                             <div className='box-hbl'>
-                                <h1>4</h1>
+                            <i class="fa-solid fa-comment-dots"></i>
+                                <h1>Comunicativo</h1>
                             </div>
                             <div className='box-hbl'>
-                                <h1>5</h1>
+                            <i class="fa-solid fa-handshake-angle"></i>
+                                <h1>colaborador</h1>
                             </div>
                             <div className='box-hbl'>
-                                <h1>6</h1>
-                            </div>
-                            <div className='box-hbl'>
-                                <h1>7</h1>
+                            <i class="fa-solid fa-hammer"></i>
+                                <h1>Proactivo</h1>
                             </div>
                         </div>
                     </div>
                     <div className='habi'>
                         <div className='box-blue3'>
-                            <h1>habilidades<br />e intereses</h1>
+                            <h1>Habilidades<br />e Intereses</h1>
                         </div>
                     </div>
                 </div >
@@ -49,7 +52,7 @@ const Habilidades = () => {
                     <div className='container-tech-items'>
                         <div className='tech'>
                             <div className='box-blue4'>
-                                <h1>tecnologias</h1>
+                                <h1>Tecnologias</h1>
                             </div>
                         </div>
                     </div>
@@ -85,7 +88,7 @@ const Habilidades = () => {
                     </div>
                 </div>
                 <div className='interested'>
-                    <p>Are you interested in working with me? Let’s get started now</p>
+                    <p>¿Estás interesado en trabajar conmigo? Comencemos ahora</p>
                 </div>
             </div>
             

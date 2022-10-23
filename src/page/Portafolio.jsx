@@ -4,7 +4,7 @@ const Portafolio = () => {
 
 
     return (
-        <div className='all-portafolio hidden'>
+        <div className='all-portafolio hidden' id="porta">
             <div className='container-all-portafolio'></div>
             <div className='container-portafolio-title'>
                 <h2>Portafolio</h2>

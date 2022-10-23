@@ -15,7 +15,7 @@ const Freelancer = () => {
                 </div>
                 </div>
                 <div className='container-freelancer-btn'>
-                    <button>Contactame</button>
+                    <a href="#form"><button>Contáctame</button></a>
                 </div>
                 
             </div>

@@ -35,7 +35,8 @@ const About = () => {
                     <div className='box-blue2'>
                         <div className='about'>
                             <h1>Sobre mi</h1> 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nostrum mollitia aut nemo? Assumenda cupiditate obcaecati, harum totam nihil ratione, natus ut vitae temporibus laudantium itaque, at ducimus maiores ab.</p>
+                            <p>Me llamo Nervin Flores, me apasiona el mundo "TI" y actualmente, soy Desarrollador Web Full Stack, soy dedicado y creativo, en constante búsqueda de mejorar
+                             personal y profesionalmente. Me interesa seguir adquiriendo más conocimientos y perfeccionar los ya obtenidos.</p>
                       </div>
                     </div>
                     <div className='circle'></div>

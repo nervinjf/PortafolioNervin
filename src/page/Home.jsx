@@ -43,9 +43,9 @@ const Home = () => {
 
             <section>
                 <div className='container-a'>
-                    <a href="#home">inicio</a>
+                    <a href="#home">Inicio</a>
                     <a href="#about">Sobre mi</a>
-                    <a href="#skill">habilidades</a>
+                    <a href="#skill">Habilidades</a>
                     <a href="#porta">Portafolio</a>
                     <a href="#form">Contactame</a>
                 </div>

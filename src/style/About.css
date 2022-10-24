@@ -72,9 +72,10 @@
   
   .about p{
     width: 30rem;
-    margin: 2.3rem;
+    margin: 2rem;
     height: 15.3rem;
-    padding: 0 5.3rem;
+    padding: 0 0 0 5.3rem;
+    font-size: 1.3rem;
   }
   
   .circle{
@@ -147,6 +148,10 @@
     justify-content: center;
     gap: 0.6rem;
     cursor: pointer;
+  }
+
+  .container-btn-about button:hover{
+    
   }
 
   [data-theme='true'] .container-btn-about button{

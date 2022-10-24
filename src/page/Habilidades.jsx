@@ -34,7 +34,7 @@ const Habilidades = () => {
                             </div>
                             <div className='box-hbl'>
                             <i class="fa-solid fa-handshake-angle"></i>
-                                <h1>colaborador</h1>
+                                <h1>Colaborador</h1>
                             </div>
                             <div className='box-hbl'>
                             <i class="fa-solid fa-hammer"></i>
@@ -52,7 +52,7 @@ const Habilidades = () => {
                     <div className='container-tech-items'>
                         <div className='tech'>
                             <div className='box-blue4'>
-                                <h1>Tecnologias</h1>
+                                <h1>Tecnologías</h1>
                             </div>
                         </div>
                     </div>

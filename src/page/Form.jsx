@@ -1,12 +1,16 @@
 import React from 'react';
+import { useForm } from 'react-hook-form';
 
 const Form = () => {
+
+
+
     return (
         <div className='container-all-form hidden' id="form">
             <div className='Po-contacto'>
                 <h2>Ponerse en contacto</h2>
             </div>
-            <form action="">
+            <form method="POST" data-netlify="true" >
                 <div className='container-form'>
                     <div className='container-form-item'>
                         <label htmlFor="">NOMBRE Y APELLIDO</label>

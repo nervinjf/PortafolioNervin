@@ -62,7 +62,7 @@ const Habilidades = () => {
                         <h1>HTML</h1>
                         </div>
                         <div className='box-tech'>
-                        <img src={css} alt="" width="85%"/>
+                        <img src={css} alt="" width="85%" className='wi'/>
                         <h1>CSS</h1>
                         </div>
                         <div className='box-tech'>

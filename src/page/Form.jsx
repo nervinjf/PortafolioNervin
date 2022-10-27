@@ -39,6 +39,8 @@ const Form = () => {
                         <textarea type="text" colas="1300" rows="4" name="sms" /*{...register("sms")}*/ />
                     </div>
                     <button type="submit">ENVIAR</button>
+                    <input type="hidden" name="_next" value="https://portafolio-nervin-flores.netlify.app"/>
+                    <input type="hidden" name="_captcha" value="false"/>
                 </div>
             </form>
 

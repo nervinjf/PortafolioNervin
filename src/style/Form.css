@@ -115,6 +115,18 @@ form button{
     color: white;
 }
 
+[data-theme='true'] form textarea{
+    transition: all .5s ease-in-out;
+    /* z-index: 1; */
+    color: white;
+}
+
+[data-theme='true'] form input{
+    transition: all .5s ease-in-out;
+    /* z-index: 1; */
+    color: white;
+}
+
 @media screen and (max-width: 767px) {
     .container-all-form{
         padding-top: 4rem;

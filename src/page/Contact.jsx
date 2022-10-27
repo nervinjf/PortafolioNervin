@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='container-contact-btn'>
-            <a href="https://drive.google.com/uc?id=17kmPlRtXQr9o8xATXxtqvfu5q73B1Z1B&export=download"><button><i class="fa-solid fa-file-arrow-down"></i> DESCARGAR CV</button></a>
+            <a href="https://drive.google.com/uc?id=1dckzZmegYasW-bggGOhSQAj_7FKxE8la&export=download"><button><i class="fa-solid fa-file-arrow-down"></i> DESCARGAR CV</button></a>
             </div>
         </div>
     );

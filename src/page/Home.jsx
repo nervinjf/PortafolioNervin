@@ -59,7 +59,7 @@ const Home = () => {
             <div className='btn'>
                 <a href="https://www.linkedin.com/in/nervin-flores-887354151/"><button><i className="fa-brands fa-linkedin-in"></i></button></a>
                 <a href=""><button><i className="fa-brands fa-instagram"></i></button></a>
-                <a href='https://drive.google.com/uc?id=17kmPlRtXQr9o8xATXxtqvfu5q73B1Z1B&export=download' download><button><i class="fa-solid fa-file-arrow-down"></i></button></a>
+                <a href='https://drive.google.com/uc?id=1dckzZmegYasW-bggGOhSQAj_7FKxE8la&export=download' download><button><i class="fa-solid fa-file-arrow-down"></i></button></a>
             </div>
             <div className='box-blue'></div>
         </div>

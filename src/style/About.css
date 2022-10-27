@@ -78,6 +78,7 @@
     height: 15.3rem;
     padding: 0 0 0 5.3rem;
     font-size: 1.3rem;
+    text-align: justify;
   }
   
   .circle{
@@ -247,6 +248,7 @@
       height: max-content;
       padding: 0 0 0 1rem;
       font-size: 1.3rem;
+      text-align: justify;
     }
     
     .circle{
@@ -348,5 +350,176 @@
 
     .container-hbl-items {
       margin: 0 0;
+    }
+  }
+
+
+  @media screen and (width: 1280px) {
+    .container-about{
+      padding: 5.3rem 0rem 8rem 1.5rem;
+      width: fit-content;
+    }
+  
+    [data-theme='true'] .container-about {
+      transition: all .5s ease-in-out;
+      background: var(--dark);
+      width: 100%;
+      z-index: -1;
+      color: var(--yellow);
+    }
+    
+    .container-about-pt1{
+      display: flex;
+    }
+    
+    .box-blue2{
+      content: "";
+      left: 0;
+      top: 0;
+      width: 13.2rem;
+      height: 13.2rem;
+      z-index: -1;
+      background: var(--blue);
+    }
+  
+    [data-theme='true'] .box-blue2 {
+      transition: all .5s ease-in-out;
+      background: var(--red-ligth);
+      z-index: 1;
+    }
+    
+    main{
+      display: flex;
+      align-items: flex-start;
+      
+    }
+    
+    .about{
+      margin: 0 0 0 1.6rem;
+      border-left: 0.5rem solid var(--red);
+      height: 33.3rem;
+    }
+  
+  
+  
+    [data-theme='true'] .about {
+      transition: all .5s ease-in-out;
+      border-left: 0.5rem solid var(--gray);
+      /* z-index: 1; */
+      color: var(--yellow);
+    }
+  
+    [data-theme='true'] .about p{
+      transition: all .5s ease-in-out;
+      /* z-index: 1; */
+      color: white;
+    }
+    
+    .about h1{
+      padding: 3rem 1rem  0 3.6rem;
+      font-size: 5rem;
+    }
+    
+    .about p{
+      width: 30rem;
+      margin: 2rem;
+      height: 15.3rem;
+      padding: 0 0 0 5.3rem;
+      font-size: 1.3rem;
+      text-align: justify;
+    }
+    
+    .circle{
+      width: 13.3rem;
+      height: 13.3rem;
+      border-radius: 50%;
+      border: 0.13rem solid var(--blue);
+      margin: 0 0rem 0 5rem;
+    }
+    
+    .items-aboutme{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding: 8rem 0 0 3.5rem;
+    }
+    
+    .items-aboutme-pt1{
+      display: flex;
+      gap: 6.66rem;
+    }
+    
+    .aboutme-items{
+      width: 16.6rem;
+    }
+    
+    .aboutme-items h2{
+      font-size: 2.3rem;
+      margin: 0;
+    }
+    
+    .aboutme-items p{
+      font-size: 1.6rem;
+      margin: 0;
+    }
+    
+    .container-aboutme-para{
+      margin: 5.3rem 0 0 0;
+      background: var(--melon);
+      display: flex;
+      justify-content: flex-start;
+      position: relative;
+    }
+    
+    .move-aboutme-para{
+      position: relative;
+      width: 3.6rem;
+      height: 33.3rem;
+      background: var(--gray);
+      padding: 0 0 0 10rem;
+    }
+    
+    .container-btn-about{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-top: 16.6rem;
+      gap: 1.6rem;
+      padding-bottom: 1.6rem;
+    }
+    
+    .container-btn-about button{
+      width: 12rem;
+      height: 2.3rem;
+      background: var(--Dark);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      cursor: pointer;
+    }
+  
+    [data-theme='true'] .container-btn-about button{
+      transition: all .5s ease-in-out;
+      /* z-index: 1; */
+      color: white;
+      background: black;
+    }
+    
+    .box-blue3{
+      content: "";
+      width: 8rem;
+      height: 8rem;
+      z-index: 1;
+      background: var(--blue);
+    }
+    
+    .box-blue3 h1{
+      display: flex;
+      position: relative;
+      right: 8rem;
+      padding: 4.6rem 0 0 0;
     }
   }

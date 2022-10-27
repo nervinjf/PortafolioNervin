@@ -57,31 +57,31 @@ const Habilidades = () => {
                         </div>
                     </div>
                     <div className='grid-tech'>
-                        <div className='box-tech'>
+                        <div className='box-tech tam'>
                         <img src={html} alt="" width="100%"/>
                         <h1>HTML</h1>
                         </div>
-                        <div className='box-tech'>
+                        <div className='box-tech tam tam2'>
                         <img src={css} alt="" width="85%" className='wi'/>
                         <h1>CSS</h1>
                         </div>
-                        <div className='box-tech'>
+                        <div className='box-tech tam tam1'>
                         <img src={js} alt="" width="180%"/>
                         <h1>JavaScript</h1>
                         </div>
-                        <div className='box-tech'>
+                        <div className='box-tech tam'>
                         <img src={react} alt="" width="100%"/>
                         <h1>React</h1>
                         </div>
-                        <div className='box-tech'>
+                        <div className='box-tech tam'>
                         <img src={redux} alt="" width="100%"/>
                         <h1>Redux</h1>
                         </div>
-                        <div className='box-tech'>
+                        <div className='box-tech tam'>
                         <img src={git} alt="" width="100%"/>
                         <h1>GIT</h1>
                         </div>
-                        <div className='box-tech'>
+                        <div className='box-tech tam tam3'>
                         <img src={boot} alt="" width="150%"/>
                         <h1>Bootstrap</h1>
                         </div>

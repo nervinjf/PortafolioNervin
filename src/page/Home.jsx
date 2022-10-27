@@ -43,11 +43,11 @@ const Home = () => {
 
             <section>
                 <div className='container-a'>
-                    <a href="#home">Inicio</a>
-                    <a href="#about">Sobre mi</a>
-                    <a href="#skill">Habilidades</a>
-                    <a href="#porta">Portafolio</a>
-                    <a href="#form">Contactame</a>
+                    <a href="#home">INICIO</a>
+                    <a href="#about">SOBRE MI</a>
+                    <a href="#skill">HABILIDADES</a>
+                    <a href="#porta">PORTAFOLIO</a>
+                    <a href="#form">CONTACTO</a>
                 </div>
             </section>
             <section className='title'>

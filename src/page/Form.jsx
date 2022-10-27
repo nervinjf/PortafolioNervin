@@ -10,7 +10,7 @@ const Form = () => {
             <div className='Po-contacto'>
                 <h2>Ponerse en contacto</h2>
             </div>
-            <form method="POST" data-netlify="true" >
+            <form name="contacto" netlify>
                 <div className='container-form'>
                     <div className='container-form-item'>
                         <label htmlFor="">NOMBRE Y APELLIDO</label>

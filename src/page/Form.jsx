@@ -20,11 +20,11 @@ const Form = () => {
             <div className='Po-contacto'>
                 <h2>Ponerse en contacto</h2>
             </div>
-            <form name="contact" netlify >
+            <form action="https://formsubmit.co/nervinjflores@gmail.com" method="POST">
                 <div className='container-form'>
                     <div className='container-form-item'>
                         <label >NOMBRE Y APELLIDO</label>
-                        <input type="text" name="name" /*{...register("name")}*//>
+                        <input type="text"  name="name" /*{...register("name")}*//>
                     </div>
                     <div className='container-form-item'>
                         <label >TELEFONO</label>

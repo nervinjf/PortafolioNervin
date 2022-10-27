@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
 
+    
 
     useEffect(() =>{
         const hiddenElement = document.querySelector(".container-about");
@@ -26,7 +27,20 @@ const About = () => {
         observer.observe(hiddenElement)
     }, [])
 
-    
+    // var today = new Date();
+    const fechaActual = new Date()
+
+    const fechaNace = new Date("1999/11/10");
+    const mes = fechaActual.getMonth();
+    const dia = fechaActual.getDate();
+    const año = fechaActual.getFullYear();
+
+    fechaActual.setDate(dia);
+    fechaActual.setMonth(mes);
+    fechaActual.setFullYear(año);
+
+    const edad = Math.floor(((fechaActual - fechaNace) / (1000 * 60 * 60 * 24) / 365));
+
 
     return (
         <div className='container-about hidden' id="about">
@@ -48,7 +62,7 @@ const About = () => {
                             </div>
                             <div className='aboutme-items'  >
                                 <h2>Edad:</h2>
-                                <p>22 Años</p>
+                                <p>{edad} Años</p>
                             </div>
                         </div>
                         <div className='items-aboutme-pt1'>
@@ -58,7 +72,7 @@ const About = () => {
                             </div>
                             <div className='aboutme-items'>
                                 <h2>Experiencia:</h2>
-                                <p>NEB</p>
+                                <p>NEB & Asociados Mercadeo</p>
                             </div>
                         </div>
 

@@ -6,12 +6,12 @@ const Form = () => {
     const { register, handleSubmit, reset } = useForm;
 
     const send = (data) => {
-        reset=({
+        reset({
             "name": "",
             "phone": "",
             "email": "",
             "sms": ""
-        })
+        });
     }
 
 
@@ -20,7 +20,7 @@ const Form = () => {
             <div className='Po-contacto'>
                 <h2>Ponerse en contacto</h2>
             </div>
-            <form name="contact" netlify onSubmit={handleSubmit(send)}>
+            <form name="contact" netlify >
                 <div className='container-form'>
                     <div className='container-form-item'>
                         <label htmlFor="name">NOMBRE Y APELLIDO</label>

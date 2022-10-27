@@ -176,15 +176,15 @@
 
   @media screen and (max-width: 767px) {
     .container-about{
-      padding: 5.3rem 3.2rem 8rem 0rem;
+      padding: 0rem 0rem 1rem 0rem;
       width: fit-content;
     }
   
     [data-theme='true'] .container-about {
       transition: all .5s ease-in-out;
       background: var(--dark);
-      width: 100%;
-      z-index: -1;
+      /* width: 100%; */
+      /* z-index: -1; */
       color: var(--yellow);
     }
     
@@ -254,7 +254,7 @@
       height: 13.3rem;
       border-radius: 50%;
       border: 0.13rem solid var(--blue);
-      margin: 0 6rem 0 10rem;
+      margin: 0 0rem 0 10rem;
     }
     
     .items-aboutme{
@@ -262,7 +262,6 @@
       justify-content: center;
       align-items: center;
       padding: 12rem 0 0 0 ;
-      width: 100%;
     }
     
     .items-aboutme-pt1{
@@ -271,11 +270,11 @@
       justify-content: center;
       align-items: flex-end;
       gap: 1rem;
-      width: 100%;
+      /* width: 0%; */
     }
     
     .aboutme-items{
-      width: 16.6rem;
+      /* width: 16.6rem;   */
       display: flex;
       justify-content: flex-end;
       flex-direction: column;
@@ -296,30 +295,17 @@
       display: flex;
     }
     
-    .container-aboutme-para{
-      margin: 5.3rem 0 0 0;
-      background: var(--melon);
-      display: flex;
-      justify-content: flex-start;
-      position: relative;
-    }
-    
-    .move-aboutme-para{
-      position: relative;
-      width: 3.6rem;
-      height: 33.3rem;
-      background: var(--gray);
-      padding: 0 0 0 10rem;
-    }
+ 
     
     .container-btn-about{
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
       width: 100%;
-      margin: 1.5rem 0 0 2rem;
-      gap: 1rem;
-      padding-bottom: 1.6rem;
+      margin: 1.5rem 0 0 0rem;
+      /* gap: 1rem; */
+      /* padding-bottom: 1.6rem; */
     }
     
     .container-btn-about button{
@@ -339,6 +325,10 @@
       /* z-index: 1; */
       color: white;
       background: black;
+    }
+
+    .grid-hbl {
+      width: 100%;
     }
     
     .box-blue3{

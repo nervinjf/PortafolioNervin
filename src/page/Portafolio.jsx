@@ -172,7 +172,7 @@ const Portafolio = () => {
                             </div>
                         </div>
                 </div>
-                <div className='card-portafolio WebNEB' >
+                {/* <div className='card-portafolio WebNEB' >
                     <div className='card-portafolio-title'><p>Pagina NEB</p></div>
                     <div className='card-portafolio-descrip'>
                         <div className='card-portafolio-descrip-desapaecer'>
@@ -203,7 +203,7 @@ const Portafolio = () => {
                                 <a href="https://nebconnection.netlify.app" target="/Blank"><p>VER</p></a>
                             </div>
                         </div>
-                </div>
+                </div> */}
                 <div className='card-portafolio back' >
                     <div className='card-portafolio-title'><p>Backdrop Filter Generator</p></div>
                     <div className='card-portafolio-descrip'>
